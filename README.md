@@ -8,7 +8,7 @@ derived from this script : https://github.com/rizonesoft/Firemin
 
 checks memory usage in an intervall and if its bigger than the specified value reduces the memory of the process
 -------------------------
-differences:
+differences to firemin:
 
 -no gui 
 
