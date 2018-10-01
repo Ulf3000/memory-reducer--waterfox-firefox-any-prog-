@@ -19,7 +19,7 @@ Func _ClearProcessesWorkingSet()
    Local $aProcessList = ProcessList("waterfox.exe")
    If Not @error Then
 	  For $i = 1 To $aProcessList[0][0]
-		 If Round(_GetProcessUsage($aProcessList[$i][1], 0)) > 300 Then   ; REMOTEPROCESSES   300 MegaByte   choose your value
+		 If Round(_GetProcessUsage($aProcessList[$i][1], 0)) > 300 Then   ;300 MegaByte   choose your value
 			_WinAPI_EmptyWorkingSet($aProcessList[$i][1])
 		 EndIf
 	  Next
