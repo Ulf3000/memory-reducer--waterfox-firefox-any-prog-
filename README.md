@@ -1,0 +1,2 @@
+# memory-reducer-waterfox
+autoit
