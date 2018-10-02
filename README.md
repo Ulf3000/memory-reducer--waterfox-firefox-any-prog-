@@ -17,3 +17,5 @@ differences to firemin:
 -------------------------
 
 edit the script to set your own values ! 
+
+precompiled exes have 10 seonds intervall and 300/400/500 MB threshhold respectively. use the correct 32 or 64 bit version for your system ! 
