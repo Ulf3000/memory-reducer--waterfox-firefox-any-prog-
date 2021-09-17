@@ -16,7 +16,7 @@ Func _GetProcessUsage($sProcess, $iFlag = 0)
 EndFunc
 
 Func _ClearProcessesWorkingSet()
-   Local $aProcessList = ProcessList("waterfox.exe")
+   Local $aProcessList = ProcessList("waterfox.exe") ;filename of the application exe , chamge this to chrome.exe, firefox.exe or whatever you like 
    If Not @error Then
 	  For $i = 1 To $aProcessList[0][0]
 		 If Round(_GetProcessUsage($aProcessList[$i][1], 0)) > 300 Then   ;300 MegaByte   choose your value
